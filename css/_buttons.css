@@ -1,0 +1,38 @@
+.btn {
+    display: inline-block;
+    width: 280px;
+
+    background-color: var(--color-Bright-blue);
+    border-radius: var(--size-10);
+    box-shadow: 0px 0px 8px var(--color-Desaturated-blue);
+
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--color-Pale-blue);
+
+    padding: 12.2px 0;
+    transition: background-color 350ms ease-in-out;
+}
+
+    .btn:hover {
+        background-color: var(--color-Desaturated-blue);
+    }
+
+     /* media quiries for button*/
+ @media screen and (min-width:600px) {
+    .btn {
+        width: 320px;
+    }
+}
+
+.btn-cancel {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 900;
+    color: var(--color-Desaturated-blue);
+    
+    transition: color 350ms ease-in-out;
+}   
+    .btn-cancel:hover {
+        color: var(--color-Dark-blue);
+    }

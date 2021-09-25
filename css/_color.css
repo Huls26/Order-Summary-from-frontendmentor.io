@@ -1,0 +1,14 @@
+
+:root {
+    /* ### Primary */
+    --color-Pale-blue: hsl(225, 100%, 94%);
+    --color-Bright-blue: hsl(245, 75%, 52%);
+    --color-white: #ffffff;
+
+    /* ### Neutral */
+
+    --color-Very-pale-blue: hsl(225, 100%, 98%);
+    --color-Desaturated-blue: hsl(224, 23%, 55%);
+    --color-Dark-blue: hsl(223, 47%, 23%);
+
+}

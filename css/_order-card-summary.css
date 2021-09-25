@@ -1,0 +1,139 @@
+:root {
+    /* for border-radius */
+
+    --size-30: 30px;
+    --size-15: 15px;
+    --size-10: 10px;
+}
+
+/* card section */
+
+.card__summary {
+
+    width: 330px;
+    height: auto;
+    margin: 70px auto;
+   
+    background: var(--color-white);
+    box-shadow: 0px 0px 10px var(--color-Desaturated-blue);
+    border-radius: var(--size-15);
+    text-align: center;
+}
+    /* media quiries */
+    @media screen and (min-width:600px) {
+        .card__summary { 
+           width: 410px;
+        }
+    }
+
+.card__image img {
+    border-radius: var(--size-15) var(--size-15) 0 0;
+    width: 100%;
+    display: block;
+}
+
+/* card text  */
+.card__title {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-Dark-blue);
+}
+
+    /* media quiries */
+    @media screen and (min-width:600px) {
+        .card__title { 
+        margin-top: 37px;
+        font-size: 1.6rem;
+        }
+    }
+
+.card__text {
+    max-width: 250px;
+    margin: 18px auto;
+    font-size: .9rem ;
+}
+
+    /* media quiries */
+    @media screen and (min-width:600px) {
+        .card__text { 
+        max-width: 300px;
+        font-size: 1rem;
+        margin: 25px auto;
+        }
+    }
+
+/* annual plan */
+
+
+.option {
+    width: 280px;
+    background: var(--color-Very-pale-blue);
+
+    margin: 36px auto 24px;
+    padding: 17px 1.2em;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    /* media quiries */
+    @media screen and (min-width:600px) {
+        .option{ 
+            width: 320px;
+            padding: 20px .9em;
+        }
+    }
+
+
+.option .annual-plan {
+    display: flex;
+}
+
+.option img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.option .plans {
+    margin-left: 23px;
+}
+
+.option .plans h3 {
+    font-size: .95rem;
+    font-weight: 800;
+    color: var(--color-Dark-blue);
+}
+
+.option a {
+    font-size: .9rem;
+    font-weight: 700;
+    color: var(--color-Bright-blue);
+    text-decoration: underline; 
+    cursor: pointer;
+    transition: color 350ms ease-in-out;
+}
+
+    .option a:hover {
+        color: var(--color-Desurated-blue);
+        text-decoration: none;
+    }
+
+.btn {
+    margin-bottom: 25px;
+}
+    @media screen and (min-width:600px) {
+        .btn {
+            margin-bottom: 30px;
+        }
+    }
+
+.btn-cancel {
+    margin-bottom: 30px; 
+}
+    @media screen and (min-width:600px) {
+        .btn-cancel {
+            margin-bottom: 40px;
+        }
+    }
